@@ -1,6 +1,6 @@
 # @titanium/eventsource
 
-![https://www.npmjs.com/package/@titanium/event-source](https://img.shields.io/npm/v/@titanium/eventsource.png)
+![https://www.npmjs.com/package/@titanium/eventsource](https://img.shields.io/npm/v/@titanium/eventsource.png)
 
 > Implementation of EventSource for Titanium Native mobile apps
 

@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/eventsource",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Implementation of EventSource for Titanium Native mobile apps",
 	"main": "./eventsource.js",
 	"scripts": {
@@ -16,7 +16,9 @@
 		"axway",
 		"amplify",
 		"eventsource",
-		"sse"
+		"sse",
+		"server-sent-event",
+		"streams"
 	],
 	"repository": {
 		"type": "git",
