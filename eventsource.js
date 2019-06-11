@@ -134,8 +134,6 @@ class EventSource extends EventTarget {
 	handleConnection(xhr) {
 		if (this.readyState === this.CONNECTING) {
 			const contentType = (xhr.getResponseHeader('Content-Type') || '').toLowerCase();
-
-			console.error(`contentType: ${JSON.stringify(contentType, null, 2)}`);
 			if (contentType.split(';')[0] === 'text/event-stream') {
 				this.announceConnection();
 			} else {
