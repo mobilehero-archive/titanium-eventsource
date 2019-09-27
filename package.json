@@ -4,7 +4,9 @@
 	"description": "Implementation of EventSource for Titanium Native mobile apps",
 	"main": "./eventsource.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"test": "npm install --ignore-scripts && npm run list-files",
+		"prepublishOnly": "git pull && bump",
 		"lint": "eslint ."
 	},
 	"keywords": [
@@ -19,7 +21,8 @@
 		"eventsource",
 		"sse",
 		"server-sent-event",
-		"streams"
+		"streams",
+		"brenton-house"
 	],
 	"repository": {
 		"type": "git",
@@ -40,6 +43,6 @@
 		"eslint": "^5.16.0",
 		"eslint-plugin-import": "^2.17.3",
 		"eslint-plugin-jsdoc": "^7.2.3",
-		"eslint-plugin-promise": "^4.1.1"
+		"eslint-plugin-promise": "^4.2.1"
 	}
 }
