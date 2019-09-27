@@ -16,7 +16,7 @@ update_configs:
     version_requirement_updates: "increase_versions"	
     ignored_updates:
       - match:
-        dependency_name: "should"
+          dependency_name: "should"
     automerged_updates:
       - match:
           dependency_name: "pretty-data2"
