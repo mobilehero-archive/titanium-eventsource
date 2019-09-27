@@ -35,7 +35,7 @@
 	},
 	"homepage": "https://github.com/brentonhouse/titanium-eventsource#readme",
 	"devDependencies": {
-		"@geek/eslint-config": "0.0.7",
+		"@geek/eslint-config": "0.0.9",
 		"eslint": "^5.16.0",
 		"eslint-plugin-import": "^2.17.3",
 		"eslint-plugin-jsdoc": "^7.2.3",
