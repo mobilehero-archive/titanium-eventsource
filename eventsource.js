@@ -242,5 +242,14 @@ const Fields = {
 	ID:    'id',
 	RETRY: 'retry',
 };
-const decodeUTF8 = str => decodeURIComponent(escape(str));
+
+const decoder = value => {
+	if (typeof Titanium !== 'undefined') {
+		return Ti.Network.decodeURIComponent(value);
+	} else {
+		return decodeURIComponent(value);
+	}
+};
+
+const decodeUTF8 = str => decoder(escape(str));
 const normalizeToLF = str => str.replace(/\r\n|\r/g, '\n');
