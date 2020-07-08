@@ -46,6 +46,6 @@
 		"eslint-plugin-promise": "^4.2.1"
 	},
 	"dependencies": {
-		"lodash": "^4.17.13"
+		"lodash": "^4.17.16"
 	}
 }
