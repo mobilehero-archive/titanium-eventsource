@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/eventsource",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "⭐  Axway Amplify module to implement EventSource for Appcelerator Titanium SDK",
 	"main": "./eventsource.js",
 	"scripts": {
