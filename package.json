@@ -58,7 +58,7 @@
 		"eslint-plugin-promise": "^6.0.0"
 	},
 	"dependencies": {
-		"@geek/logger": "^1.0.17",
+		"@geek/logger": "^1.0.18",
 		"@titanium/bluebird": "^3.7.8",
 		"@titanium/errors": "^1.0.5",
 		"@titanium/essentials": "^1.0.35",
