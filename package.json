@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/eventsource",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "⭐  Axway Amplify module to implement EventSource for Appcelerator Titanium SDK",
 	"main": "./eventsource.js",
 	"scripts": {
@@ -51,10 +51,10 @@
 		"url": "https://github.com/mobilehero-archive/titanium-eventsource/issues"
 	},
 	"devDependencies": {
-		"@titanium/eslint-config": "1.0.10",
+		"@titanium/eslint-config": "1.0.12",
 		"eslint": "^8.6.0",
 		"eslint-plugin-import": "^2.25.4",
-		"eslint-plugin-jsdoc": "^37.5.2",
+		"eslint-plugin-jsdoc": "^37.6.1",
 		"eslint-plugin-promise": "^6.0.0"
 	},
 	"dependencies": {
@@ -69,19 +69,19 @@
 		"@geek/spawn": "^0.0.3",
 		"@geek/spinner": "^1.0.0",
 		"@geek/tld": "^2.0.1-1",
-		"@titanium/appcelerator": "^6.0.4",
-		"@titanium/bluebird": "^3.7.10",
-		"@titanium/errors": "^1.0.8",
-		"@titanium/essentials": "^1.0.38",
-		"@titanium/events": "^1.0.20",
-		"@titanium/jwt": "^1.0.10",
+		"@titanium/appcelerator": "^6.0.6",
+		"@titanium/bluebird": "^3.7.12",
+		"@titanium/errors": "^1.0.9",
+		"@titanium/essentials": "^1.0.40",
+		"@titanium/events": "^1.0.21",
+		"@titanium/jwt": "^1.0.12",
 		"@titanium/module-copier": "^1.0.15",
-		"@titanium/please": "^1.0.17",
-		"@titanium/polyfill": "^1.0.18",
-		"@titanium/querystring": "^1.0.4",
-		"@titanium/tiapp-xml": "^1.0.16",
-		"@titanium/titanium": "^5.4.8",
-		"@titanium/turbo": "^2.2.24",
+		"@titanium/please": "^1.0.19",
+		"@titanium/polyfill": "^1.0.20",
+		"@titanium/querystring": "^1.0.5",
+		"@titanium/tiapp-xml": "^1.0.17",
+		"@titanium/titanium": "^5.4.13",
+		"@titanium/turbo": "^2.2.29",
 		"lodash": "^4.17.21"
 	}
 }
