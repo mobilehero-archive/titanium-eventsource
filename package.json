@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/eventsource",
-	"version": "1.0.31",
+	"version": "1.0.32",
 	"description": "⭐  Axway Amplify module to implement EventSource for Appcelerator Titanium SDK",
 	"main": "./eventsource.js",
 	"scripts": {
@@ -51,10 +51,10 @@
 		"url": "https://github.com/mobilehero-archive/titanium-eventsource/issues"
 	},
 	"devDependencies": {
-		"@titanium/eslint-config": "1.0.32",
+		"@titanium/eslint-config": "1.0.33",
 		"eslint": "^8.7.0",
 		"eslint-plugin-import": "^2.25.4",
-		"eslint-plugin-jsdoc": "^37.6.2",
+		"eslint-plugin-jsdoc": "^37.6.3",
 		"eslint-plugin-promise": "^6.0.0"
 	},
 	"dependencies": {
